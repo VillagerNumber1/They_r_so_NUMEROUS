@@ -1,0 +1,1 @@
+print("zhe\nshi\nyi\ndao\nqian\ndao\nti")
