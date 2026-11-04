@@ -21,10 +21,12 @@ for group in lines:
     for i in range(0 , len(group)):
         """
         思路：判断单字符是否为阿拉伯数字，若是则过
-        
+
         判断单字符是否为英文，若是，进入while 循环
         通过while循环删除重复的英文元素
         然后添加进temp_word
         temp_word进入我def的函数查询阿拉伯，然后添加成密码即可
         (添加方式:用str处理，然后处理成一个整体后再导入verify word)
+
+        好像有越界的可能，还是稍微看一下有没有更好的解法。
         """
